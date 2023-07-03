@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>Heylin</title>
+  </head>
+
+  <style>
+    .hr {
+    }
+  </style>
+
+  <body>
+    <style>
+      .nav-tabs .nav-item.show .nav-link,
+      .nav-tabs .nav-link.active {
+        color: #d158a5 !important;
+      }
+      .nav-tabs .nav-item.show .nav-link,
+      .nav-tabs .nav-link.active {
+        border-color: #d158a5 !important;
+      }
+    </style>
+    <!-- Hero -->
+    <div
+      id="carouselExampleTouch"
+      class="carousel slide"
+      data-mdb-touch="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-mdb-target="#carouselExampleTouch"
+          data-mdb-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-mdb-target="#carouselExampleTouch"
+          data-mdb-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-mdb-target="#carouselExampleTouch"
+          data-mdb-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="c1.png" class="d-block w-100" alt="Wild Landscape" />
+          <div class="carousel-caption d-none d-md-block">
+            <!-- asdasdasdasd -->
+            <div
+              class="info d-flex align-items-center"
+              style="padding-bottom: 15%; !important"
+            >
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-6 text-center">
+                    <h2 data-aos="fade-down">
+                      Primer Mes
+                      <strong data-aos="zoom-in"
+                        >Juntos <i class="fas fa-heart"></i
+                      ></strong>
+                    </h2>
+                    <hr
+                      class="hr"
+                      style="
+                        background-color: #d158a5 !important;
+                        height: 7px !important;
+                        width: 20%;
+                        border: none;
+                        margin-left: 40%;
+                      "
+                    />
+                    <blockquote class="blockquote" data-aos="zoom-in">
+                      ¡Nuestro primer mes de estar juntos, mi amor! Agradezco
+                      infinitamente por llenar mi mundo de felicidad y amor.
+                    </blockquote>
+                    <button
+                      data-aos="zoom-in-up"
+                      type="button"
+                      class="btn btn-outline-primary btn-rounded"
+                      data-mdb-ripple-color="dark"
+                      style="color: white !important; border-color: #d158a5"
+                    >
+                      feliiiiiiii!
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- asdasdasdasd -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="c2.png" class="d-block w-100" alt="Camera" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-mdb-target="#carouselExampleTouch"
+        data-mdb-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-mdb-target="#carouselExampleTouch"
+        data-mdb-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Hero -->
+
+    <div class="container mt-5" data-aos="fade-up">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="text-center" style="color: #3b3b3b; font-weight: 700">
+            <i class="fas fa-heart" style="color: #d158a5"></i>
+            Fotitos de mi preciosa
+            <i class="fas fa-heart" style="color: #d158a5"></i>
+          </h1>
+          <div class="text-center">
+            <img src="bulit-icon.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- Tabs navs -->
+          <ul class="nav nav-tabs nav-fill mb-3" id="ex1" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link active"
+                id="ex2-tab-1"
+                data-mdb-toggle="tab"
+                href="#ex2-tabs-1"
+                role="tab"
+                aria-controls="ex2-tabs-1"
+                aria-selected="true"
+                style="font-size: 40px"
+                >T</a
+              >
+            </li>
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                id="ex2-tab-2"
+                data-mdb-toggle="tab"
+                href="#ex2-tabs-2"
+                role="tab"
+                aria-controls="ex2-tabs-2"
+                aria-selected="false"
+                style="font-size: 40px"
+                >E</a
+              >
+            </li>
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                id="ex2-tab-3"
+                data-mdb-toggle="tab"
+                href="#ex2-tabs-3"
+                role="tab"
+                aria-controls="ex2-tabs-3"
+                aria-selected="false"
+                style="font-size: 40px"
+                >A</a
+              >
+            </li>
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                id="ex2-tab-4"
+                data-mdb-toggle="tab"
+                href="#ex2-tabs-4"
+                role="tab"
+                aria-controls="ex2-tabs-4"
+                aria-selected="false"
+                style="font-size: 40px"
+                >M</a
+              >
+            </li>
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                id="ex2-tab-4"
+                data-mdb-toggle="tab"
+                href="#ex2-tabs-5"
+                role="tab"
+                aria-controls="ex2-tabs-5"
+                aria-selected="false"
+                style="font-size: 40px"
+                >O</a
+              >
+            </li>
+          </ul>
+          <!-- Tabs navs -->
+
+          <!-- Tabs content -->
+          <div class="tab-content" id="ex2-content">
+            <div
+              class="tab-pane fade show active"
+              id="ex2-tabs-1"
+              role="tabpanel"
+              aria-labelledby="ex2-tab-1"
+            >
+              <div class="col-lg-12">
+                <img
+                  class="img-fluid mx-auto d-block"
+                  src="k1.png"
+                  alt=""
+                  style="width: 80%"
+                />
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="ex2-tabs-2"
+              role="tabpanel"
+              aria-labelledby="ex2-tab-2"
+            >
+              <div class="col-lg-12">
+                <img
+                  class="img-fluid mx-auto d-block"
+                  src="k2.png"
+                  alt=""
+                  style="width: 80%"
+                />
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="ex2-tabs-3"
+              role="tabpanel"
+              aria-labelledby="ex2-tab-3"
+            >
+              <div class="col-lg-12">
+                <img
+                  class="img-fluid mx-auto d-block"
+                  src="k3.png"
+                  alt=""
+                  style="width: 80%"
+                />
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="ex2-tabs-4"
+              role="tabpanel"
+              aria-labelledby="ex2-tab-4"
+            >
+              <div class="col-lg-12">
+                <img
+                  class="img-fluid mx-auto d-block"
+                  src="k4.png"
+                  alt=""
+                  style="width: 80%"
+                />
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="ex2-tabs-5"
+              role="tabpanel"
+              aria-labelledby="ex2-tab-5"
+            >
+              <div class="col-lg-12">
+                <img
+                  class="img-fluid mx-auto d-block"
+                  src="k5.png"
+                  alt=""
+                  style="width: 80%"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Tabs content -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div
+        class="row"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
+        <div class="col-lg-12">
+          <h1 class="" style="color: #3b3b3b; font-weight: 700">
+            ¿Como me enamore de ti?
+          </h1>
+          <hr
+            class="hr"
+            style="
+              background-color: #d158a5 !important;
+              height: 7px !important;
+              width: 20%;
+              border: none;
+            "
+          />
+        </div>
+      </div>
+      <div
+        class="row"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
+        <div class="col-lg-6">
+          <p class="lead">
+            Es complicado recordar el momento exacto en el cual me enamore de
+            ti, pero fue poco a poco entre mas nos relacionabamos me daba cuenta
+            lo mucho que me gustabas pero no queria aceptarlo por razones
+            obvias.
+            <br />
+            <br />
+            Nunca tuve otras intenciones contigo porque eras mi amiga, pero cada
+            vez que te veia me alegraba mucho y me hacia palpitar mi corazón,
+            cuando te miraba llegar al sotano, te miraba como que eras la unica
+            persona que estabas ahi, como si hubiera una luz que te enfocaba
+            solo a ti y estaba confundido, no sabia que estaba sintiendo, y lo
+            trataba de negar
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <img
+            src="l0.png"
+            class="img-fluid mx-auto d-block"
+            style="width: 50%"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div
+        class="row"
+        data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500"
+      >
+        <div class="col-lg-12">
+          <p class="lead">
+            Cuando salía con Allyson, no sentía absolutamente nada. No quería
+            verla, no tenía ganas de hablarle, pero seguía intentando algo
+            porque tú me decías que lo intentara con ella. Pero por dentro me
+            moría de que fueras tú. Sin embargo, siempre pensé que lo nuestro
+            nunca iba a suceder.
+          </p>
+
+          <br />
+
+          <p class="lead">
+            Lo que sentía por ella era totalmente opuesto a lo que sentía por
+            ti. Contaba las horas para salir del trabajo y verte para ir al
+            gimnasio, y luego salir juntos y quedarnos afuera del gym, donde me
+            contabas cualquier cosa y eso me hacía feliz. Recuerdo el día que
+            comimos repochetas después del gimnasio y charlamos sobre nuestras
+            cosas, yo estaba tan feliz y cómodo estando allí, tumbado en la
+            cuneta de un barrio desconocido a las 7 de la noche. Contigo podría
+            pasar todo el día sin darme cuenta de que pasaban las horas... y
+            cada día me enamoraba más y más, hasta que decidí dejar de intentar
+            algo con esa persona.
+          </p>
+
+          <br />
+
+          <p class="lead">
+            Te confieso que todas mis notas de Instagram las escribí pensando en
+            ti, y las escribía sin saber que las ibas a leer. Pero empecé a
+            sospechar que leías mis notas cuando notaba que parecías responder
+            indirectamente... hasta que esas respuestas indirectas se volvieron
+            directas y muy obvias. AKSJHDASJDH
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div
+        class="row"
+        data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500"
+      >
+        <div class="col-lg-6">
+          <img src="l1.jpg" class="img-fluid" alt="" />
+        </div>
+        <div class="col-lg-6">
+          <p class="lead">
+            me hubiese encantado a ver tomado screenshot a cada una de las notas
+            que nos escribiamos, por que eran muy lindas, este es la unica
+            captura que tengo.
+          </p>
+
+          <p class="lead">
+            Aqui ya estaba un poco seguro de que tenias interes hacia a mi pero
+            aun asi sentia que todo era "normal"
+          </p>
+
+          <p class="lead">
+            me acuerdo estabamos viendo rave y me preguntaste que para quienes
+            eran las notas y yo te respondi para ti, pero no me creiiiste,
+            cuando te lo escribi me puse muy nervioso :c
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row" data-aos="fade-up-right">
+        <div class="col-lg-6">
+          <p class="lead">
+            hasta que llego el dia en donde decidi en dejar a ella, ese dia en
+            el tercer piso tuu, me diste un besooo en el cachete casi boca :p,
+            pero no lo note raro si pense en algo, pero no profundise en esa
+            accion, pero ese dia si estaba decidio en hacer algo para que te
+            dieras cuenta que me gustabas, ese dia la pase muy bien fuimos al
+            salvador allende, creo que ese dia te presete la moto y manejaste
+            jiji, (que linda te ves manejando) y ese dia fue el dia donde te di
+            un beso en la boca :o, acepto que fue sin querer pero Gracias Dios
+            que ocurrio.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <img src="l2.jpg" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-1">
+      <div class="row" data-aos="fade-up-right">
+        <div class="col-lg-12">
+          <p class="lead">
+            <strong>
+              me gustas. me gustas tanto que podria mirarte un dia entero sin
+              decir una sola palabra. me gustas tanto que mi corazon a veces no
+              aguanta el amor que tiene dentro. me gustas tanto que daria todo
+              por ti
+            </strong>
+          </p>
+
+          <p class="lead">
+            <strong>
+              Dicen que el que se enamora pierde, y yo ya perdí. Perdí al ver tu
+              hermosa sonrisa, tus ojos lindos brillando al verme, el olor de tu
+              perfume, los sentimientos tan indescriptibles que siento hacia ti,
+              la forma en que me haces sentir, lo feliz que soy al estar
+              contigo. Perdí, pero de la manera más linda. Es decir, me perdí en
+              ti.
+            </strong>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small" style="background-color: #3b3b3b">
+      <!-- Copyright -->
+      <div style="color: white" class="footer-copyright text-center py-3">
+        <i class="fa-solid fa-code"></i> Hecho por Justin para mi Novia
+        <!-- <a href="https://mdbootstrap.com/"> MDBootstrap.com</a> -->
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <script>
+      AOS.init();
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
