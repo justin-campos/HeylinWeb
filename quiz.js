@@ -14,7 +14,7 @@
         // ...add an HTML radio button
         answers.push(
           `<label>
-                <input type="radio" name="question${questionNumber}" value="${letter}">
+                <input type="radio" name="question${questionNumber}" value="${letter}" class="form-check-input">
                 ${letter} :
                 ${currentQuestion.answers[letter]}
               </label>`
